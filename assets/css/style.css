@@ -1,5 +1,6 @@
 html {
-	background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/ep_naturalwhite.png);
+	background: url(../images/background.png);
+	background-size: cover;
 }
 
 header {
@@ -48,10 +49,16 @@ section {
 	margin: 40px 0px 20px 80px;
 }
 
-h2, h1 {
+h1, h2 {
 	color: #4aaaad;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-left: 30px;
+}
+
+h3 {
+	color: #4aaaad;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
 }
 
 hr {
@@ -62,7 +69,7 @@ hr {
     margin-right: auto;
     border-style: inset;
     border-width: 1px;
-    color: blue;
+    color: #ddd;
     width: 590px;
 }
 
@@ -97,6 +104,26 @@ hr {
 	border-color: #dddddd;
 	border: solid;
 	border-width: .05px; 
+}
+
+.social hr {
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #ddd;
+    width: 210px;
+}
+
+.icons {
+	height: 55px;
+	width: 55px;
+	padding: 5px;
+	display: inline-block;
+	margin: auto;
 }
 
 .atopFooter hr {
