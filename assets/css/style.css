@@ -27,10 +27,9 @@ header h1 {
 ul {
 	float: right;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin-left: 780px;
 	background-color: #fff;
-	position: relative;
+	position: absolute;
 }
 
 li {
@@ -112,6 +111,8 @@ hr {
 #bio-image {
 	float: left;
 	margin: 20px 20px 20px 30px;
+	width: 200px;
+	height: 300px;
 }
 
 .mainContent p {
@@ -130,6 +131,7 @@ form {
 input {
 	padding: 7px;
 	margin: 5px;
+	width: 95%;
 }
 
 button {
@@ -139,6 +141,7 @@ button {
 	color: white;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 14px;
+	margin-top: 5px;
 
 }
 
@@ -155,18 +158,37 @@ button {
 
 #image1 {
 	margin: 20px;
+	float: center;
+	width: 250px;
+	padding: 10px;
 }
 
 #image2 {
 	margin: 20px;
+	float: center;
+	width: 250px;
+	padding: 10px;
 }
 
 #image3 {
 	margin: 20px;
+	float: center;
+	width: 250px;
+	padding: 10px;
 }
 
 #image4 {
 	margin: 20px;
+	float: center;
+	width: 250px;
+	padding: 10px;
+}
+
+#image5 {
+	margin: 20px;
+	float: center;
+	width: 250px;
+	padding: 10px;
 }
 
 /* Social Media Sidebar */
@@ -220,10 +242,11 @@ button {
 	border-width: 0;
 	bottom: 0;
 	height: 30px;
+	position: relative;
 }
 
 footer {
 	bottom: 0px;
-	position: relative;
+	position: absolute;
 	width: 100%;
 }
